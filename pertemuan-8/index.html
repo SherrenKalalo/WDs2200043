@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Calon Pegawai</title>
+</head>
+<body>
+    <form action="/pertemuan-8/index.html" method="POST">
+        <h1>Formulir Calon Pegawai</h1>
+        <section class="nama">
+            <label for="nama">Nama:</label>
+            <input type="text" name="nama" id="nama">
+        </section>
+        <br>
+        <section class="alamat">
+            <label for="alamat">Alamat:</label>
+            <input type="text" name="alamat" id="alamat">
+        </section>
+        <br>
+        <section class="user-pw">
+            <label for="user-pw">Password:</label>
+		    <input type="password" id="user-pw" name="user-pw">
+        </section>
+        <br>
+        <section class="gender">
+            <span>Jenis kelamin:</span>
+	        <input id="pria" type="radio" name="pria" value="pria">
+            <label for="pria">Laki-laki</label>
+            <input id="perempuan" name="perempuan" type="radio" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+        </section>
+        <br>
+        <section class="program">
+            <span>Bahasa pemrograman yang dikuasai:</span>
+            <input id="web" name="program" type="checkbox" value="web">
+            <label for="web">Web</label>
+            <input id="mobile" name="program" type="checkbox" value="mobile">
+            <label for="mobile">Mobile</label>
+            <input id="desktop" name="program" value="desktop" type="checkbox">
+            <label for="desktop">Desktop</label>
+        </section>
+        <br>
+        <section class="asal">
+            <label for="asal">Kota asal:</label>
+            <select id="asal" name="asal">
+             <option value="bitung">Bitung</option>
+             <option value="manado">Manado</option>
+             <option value="tomohon">Tomohon</option>
+            </select>
+        </section>
+        <br>
+        <section class="dll">
+            <label for="dll">Apa yang membuat kami harus memilih anda?:</label>
+        	<br>
+            <textarea id="dll" name="dll" rows="10" cols="60" placeholder="Tulis jawaban Anda di sini :)"></textarea>
+        </section>
+        <section class="proses">
+            <input type="submit" value="proses">
+        </section>
+    </form>
+</body>
+</html>
